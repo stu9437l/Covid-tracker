@@ -1,10 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Main from "./Portfolio/Main"
-import { BrowserRouter } from "react-router-dom";
+import ReactDOM from"react-dom";
+import Covid from "./Covid-Tracker/Covid-Ui"
+import "./index.css"
 ReactDOM.render(
-  <BrowserRouter>
-      <Main/>
-  </BrowserRouter>
-  ,document.getElementById("root")
-);
+  <Covid/>,
+  document.getElementById("root")
+)

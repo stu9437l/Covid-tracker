@@ -1,1 +1,39 @@
-
+body{
+    font-family: 'Rampart One', cursive;
+    background-color: rgb(34, 33, 33);
+}
+.nepali_flag{
+    width:60px;
+    height:60px;
+    border: 3px solid #4706df;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.flag{
+    object-fit: cover !important;
+    object-position: center !important;
+    width:60px;
+    height: 60px;
+}
+ .hover_effect:hover{
+    background-color: chocolate !important;
+    color: rgb(2, 2, 10) !important;
+}
+.live{
+    animation: live 2s linear infinite;
+}
+@keyframes live {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@media(max-width:500px){
+    .hover_effect{
+        margin: 0.4rem 1.5rem !important;
+        border-radius: 20px;
+    }
+}
